@@ -5,8 +5,9 @@
 *.slo
 *.lo
 *.o
-*.obj
 *.bin
+*.vscode
+obj/
 
 # Precompiled Headers
 *.gch
@@ -31,3 +32,4 @@
 *.exe
 *.out
 *.app
+*.json
