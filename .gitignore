@@ -5,9 +5,9 @@
 *.slo
 *.lo
 *.o
-*.bin
 *.vscode
 obj/
+bin/
 
 # Precompiled Headers
 *.gch
