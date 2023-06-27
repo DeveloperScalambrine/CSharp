@@ -5,12 +5,13 @@ namespace CSharp
     public class Triangle
     {
         public int SideA = 7;
-        public int SideB = 4;
-        public int SideC = 2;
+        public int SideB = 6;
+        public int SideC = 6;
+        bool message = true;
         
         public bool isTriangle()
         {
-            bool message = true;
+             
             if (!(SideA < SideB + SideC) && (SideB < SideA + SideC) && (SideC < SideA + SideB)) 
             {
                 message = false;
@@ -18,18 +19,20 @@ namespace CSharp
                 return message;
         }
 
-        public void equilatero(){
+        public bool equilatero(){
             if ((SideA == SideB) && (SideB == SideC))
             {
-                System.Console.WriteLine("Equilátero");
+                message = true;
             }
+            return message;
         }
 
-        public void isosceles(){
+        public bool isosceles(){
             if ((SideA == SideB) || (SideA == SideC) || (SideB == SideC)) 
             {
-                System.Console.WriteLine("Isósceles");
+                message = true;
             }
+            return message;
         }
         
         public void escaleno(){
