@@ -6,8 +6,29 @@ namespace CSharp
     {
         static void Main(string[] args)
         {
-            Week dayWeek = new Week("sabado");
-            dayWeek.action();
+            Triangle triangle = new Triangle();
+            bool result = triangle.isTriangle();
+            bool resultEqui = triangle.equilatero();
+            bool resultIso = triangle.isosceles();
+            if (result == false)
+            {
+                System.Console.WriteLine("Não é triângulo");
+            } else if (resultEqui == true)
+                {             
+                    System.Console.WriteLine("Equilátero");
+                } else if (resultIso == true)
+                  {
+                    System.Console.WriteLine("Isosceles");
+                  }
+        
+    
+            
+            
+            // triangle.equilatero();
+            // triangle.isosceles();
+            // triangle.escaleno();
+            // Week dayWeek = new Week("sabado");
+            // dayWeek.action();
             
             // CountList countList = new CountList();
             // countList.action();
