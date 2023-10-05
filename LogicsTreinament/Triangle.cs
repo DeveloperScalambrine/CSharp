@@ -49,4 +49,3 @@ namespace CSharp
         }     
     }
 }
-// Novas funcionalidades adicionadas
