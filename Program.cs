@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace CSharp
 {
@@ -6,27 +6,39 @@ namespace CSharp
     {
         static void Main(string[] args)
         {
+
             Triangle triangle = new Triangle();
             bool result = triangle.isTriangle();
-            bool resultEqui = triangle.equilatero();
-            bool resultIso = triangle.isosceles();
+            bool resultEqui = triangle.Equilatero();
+            bool resultIso = triangle.Isosceles();
+            bool resultEsc = triangle.Escaleno();
             if (result == false)
             {
-                System.Console.WriteLine("Não é triângulo");
+                Console.WriteLine("Não é triângulo");
             } else if (resultEqui == true)
                 {             
-                    System.Console.WriteLine("Equilátero");
+                    Console.WriteLine("Equilátero");
                 } else if (resultIso == true)
                   {
-                    System.Console.WriteLine("Isosceles");
+                    Console.WriteLine("Isosceles");
+                  } else if (resultEsc == true)
+                  {
+                    Console.WriteLine("Escaleno");
                   }
-        
-    
-            
+                    
             
             // triangle.equilatero();
             // triangle.isosceles();
             // triangle.escaleno();
+            // Week dayWeek = new Week("sabado");
+            // dayWeek.action();
+            
+            // CountList countList = new CountList();
+            // countList.action();
+            // countList.count();
+
+            // AverageWithCondition.averageNote(AverageWithCondition.N1, AverageWithCondition.N2, AverageWithCondition.N3, AverageWithCondition.N4);
+   
             // Week dayWeek = new Week("sabado");
             // dayWeek.action();
             
