@@ -55,3 +55,9 @@ namespace CSharp
         }
     }
 }
+
+/*
+Código para executar na main
+
+// AverageWithCondition.averageNote(AverageWithCondition.N1, AverageWithCondition.N2, AverageWithCondition.N3, AverageWithCondition.N4);
+*/
