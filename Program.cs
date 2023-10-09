@@ -6,25 +6,27 @@ namespace CSharp
     {
         static void Main(string[] args)
         {
+            ClassObjects teste = new ClassObjects();
+            teste.Teste();
 
-            Triangle triangle = new Triangle();
-            bool result = triangle.isTriangle();
-            bool resultEqui = triangle.Equilatero();
-            bool resultIso = triangle.Isosceles();
-            bool resultEsc = triangle.Escaleno();
-            if (result == false)
-            {
-                Console.WriteLine("Não é triângulo");
-            } else if (resultEqui == true)
-                {             
-                    Console.WriteLine("Equilátero");
-                } else if (resultIso == true)
-                  {
-                    Console.WriteLine("Isosceles");
-                  } else if (resultEsc == true)
-                  {
-                    Console.WriteLine("Escaleno");
-                  }
+            // Triangle triangle = new Triangle();
+            // bool result = triangle.isTriangle();
+            // bool resultEqui = triangle.Equilatero();
+            // bool resultIso = triangle.Isosceles();
+            // bool resultEsc = triangle.Escaleno();
+            // if (result == false)
+            // {
+            //     Console.WriteLine("Não é triângulo");
+            // } else if (resultEqui == true)
+            //     {             
+            //         Console.WriteLine("Equilátero");
+            //     } else if (resultIso == true)
+            //       {
+            //         Console.WriteLine("Isosceles");
+            //       } else if (resultEsc == true)
+            //       {
+            //         Console.WriteLine("Escaleno");
+            //       }
                     
             
             // triangle.equilatero();
