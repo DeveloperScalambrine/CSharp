@@ -51,5 +51,11 @@ namespace CSharp
         }
 
     } 
-
 }
+
+/*
+Código para executar na main
+
+// Week dayWeek = new Week("sabado");
+// dayWeek.action();
+*/            

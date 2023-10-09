@@ -51,5 +51,12 @@ namespace CSharp
         }
 
     } 
-
 }
+
+/*
+Código para executar na main
+
+// CountList countList = new CountList();
+// countList.action();
+// countList.count();
+*/            
