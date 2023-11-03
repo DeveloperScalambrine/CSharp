@@ -6,15 +6,13 @@ namespace CSharp
     {
         static void Main(string[] args)
         {
-            ObjEleStatics objEleStatics = new ObjEleStatics(16,10,7);
-            if (objEleStatics.firstChildren == string.Empty)
-            {
-                Console.WriteLine("Construtor vazio sem nomes e idades");
-            } else if(objEleStatics.AgeJ == 0) {
-                Console.WriteLine("Construindo apenas nomes");
-            } else {
-                Console.WriteLine($"Filho mais velho => é o {objEleStatics.firstChildren} com {objEleStatics.AgeJ} de idade: => {objEleStatics.secondChildren} é o filho do meio com {objEleStatics.AgeP} de idade: Por ultimo tem a Filha mais nova => {objEleStatics.thirdChildren} com {objEleStatics.AgeS} de idade");
-            }
+        //    Square square = new Square();
+        //    square.side = 2;
+        //    Console.WriteLine(square.CalcularArea());
+              TriangleOne triangleOne = new TriangleOne();
+              triangleOne.Base = 4;
+              triangleOne.Height = 9;
+              Console.WriteLine(triangleOne.CalcularArea());
         }
     }
 }
