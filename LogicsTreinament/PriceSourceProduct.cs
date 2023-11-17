@@ -63,3 +63,7 @@ namespace CSharp
     }
   }
 }
+
+/* codigo para executar na main
+PriceSourceProduct.sortProduct(21);
+*/

@@ -6,7 +6,6 @@ namespace CSharp
 	{
 		static void Main(string[] args)
 		{
-			PriceSourceProduct.sortProduct(21);
 		}
 	}
 }
