@@ -19,14 +19,25 @@ namespace CSharp
       return side * side;
     }
   }
+
+  public class Circumference {
+    public double n = Math.PI;
+    public int ray; 
+    public double CalcularArea() {
+      Console.WriteLine("Type value of ray: ");
+      ray = Convert.ToInt32(Console.ReadLine());
+      return 2 * n * ray;
+    }
+  }  
+  public class Trapeze
+  {
+    public double bigestBase = 20;
+    public double smallerBase = 7;
+    public int height = 14;
+
+    public double CalcularArea() {
+      double a = (bigestBase + smallerBase) * height / 2;
+      return a;
+     }
+  }
 }
-
-// código para executar na main
-
-//    Square square = new Square();
-//    square.side = 2;
-//    Console.WriteLine(square.CalcularArea());
-//   TriangleOne triangleOne = new TriangleOne();
-//   triangleOne.Base = 4;
-//   triangleOne.Height = 9;
-//   Console.WriteLine(triangleOne.CalcularArea());
