@@ -9,8 +9,17 @@ namespace CSharp
 			//    Square square = new Square();
 			//    square.side = 2;
 			//    Console.WriteLine(square.CalcularArea());
-			TriangleOne triangleOne = new TriangleOne();
-			Console.WriteLine(triangleOne.CalcularArea());
+			try
+			{
+				
+				// TriangleOne triangleOne = new TriangleOne();
+				// Console.WriteLine(triangleOne.CalcularArea());
+				TriangleOne.SetNumPaginas(-10);
+			}
+			catch (TriangleOneException e)
+			{
+				Console.WriteLine(e.Message);				
+			}
 			// Circumference circumference = new Circumference();
 			// Console.WriteLine(circumference.CalcularArea());
 			// Trapeze trapeze = new Trapeze();

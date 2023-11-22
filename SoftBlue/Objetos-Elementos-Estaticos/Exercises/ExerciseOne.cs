@@ -2,10 +2,28 @@ using System;
 
 namespace CSharp
 {
-  public class TriangleOne {
+  public class TriangleOneException  : SystemException
+  {
+  public TriangleOneException() { }
+  public TriangleOneException(string message) : base(message) { }
+  public TriangleOneException(string message, System.Exception inner) : base(message, inner) { }
+  
+  }
+  public class TriangleOne
+  {
+    private static int numPaginas;
+    public int GetNumPaginas(){return numPaginas;}
+    public static void SetNumPaginas(int numPaginas) {
+      if (numPaginas <= 0 )
+      {
+        throw new TriangleOneException("Numero não pode ser menor que zero");
+      }
+        TriangleOne.numPaginas = numPaginas;
+        Console.WriteLine(TriangleOne.numPaginas);        
+    }
+
     public static double Base { get; set; }
     public static double Height { get; set; }
-    
     public TriangleOne()
     {
       Console.WriteLine("Type base ");
