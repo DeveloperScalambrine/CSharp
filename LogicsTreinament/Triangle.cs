@@ -78,3 +78,32 @@ Código para executar na main
             // triangle.escaleno();
             
 */
+
+// TriangleOne triangleOne = new TriangleOne("jose");
+// // TriangleOne carlos = new TriangleOne("Carlos");
+// TriangleTwo.ExtensionMethod(triangleOne);
+
+// Console.WriteLine(carlos);
+// TriangleTwo.ExtensionMethod(henrique);
+
+//    Square square = new Square();
+//    square.side = 2;
+//    Console.WriteLine(square.CalcularArea());
+// try
+// {
+
+// 	// TriangleOne triangleOne = new TriangleOne();
+// 	// Console.WriteLine(triangleOne.CalcularArea());
+// 	TriangleOne.SetNumPaginas(-10);
+// }
+// catch (TriangleOneException e)
+// {
+// 	Console.WriteLine(e.Message);				
+// }
+// Circumference circumference = new Circumference();
+// Console.WriteLine(circumference.CalcularArea());
+// Trapeze trapeze = new Trapeze();
+// trapeze.CalcularArea();
+// Criação da turma
+// 	Turma turma = new Turma();
+
