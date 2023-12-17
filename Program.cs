@@ -9,19 +9,11 @@ namespace CSharp
 		{
 			try
 			{
-				/* 
-				ExercisesPg46.IsNotEqual();
-				ExercisesPg46.OrderDesc();
-				*/
-
-				// ExercisesPg46.CalcularRaizes();
-
-				Console.WriteLine(ExercisesPg46.IdealWeight());									
-
+				ObjEleStatics.PayOrder(ObjEleStatics.Communication);
 			}
 			catch (ArgumentException ex)
 			{
-				Console.WriteLine(ex);
+				Console.WriteLine(ex.Message);
 			}
 		}
 	}
