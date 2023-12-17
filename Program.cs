@@ -9,7 +9,10 @@ namespace CSharp
 		{
 			try
 			{
-				ObjEleStatics.PayOrder(ObjEleStatics.Communication);
+				LightBulb lightBulb = new LightBulb("Ligada");
+				lightBulb.StateOfLightBulb();
+				lightBulb.Off();
+				lightBulb.On();				
 			}
 			catch (ArgumentException ex)
 			{
