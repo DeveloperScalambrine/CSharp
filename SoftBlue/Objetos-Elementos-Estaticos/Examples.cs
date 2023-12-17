@@ -45,7 +45,7 @@ namespace CSharp
         /// <param name="operation"></param>
         /// <returns></returns>
         /// <exception cref="ArgumentException"></exception>
-        public static bool ToPayOrder(bool operation)
+        public static bool PayOrder(bool operation)
         {
           NotifyOperator();
           operation = Communication ? true : throw new ArgumentException("Erro ao tentar se conectar com a operadora");

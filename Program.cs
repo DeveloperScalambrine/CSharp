@@ -9,7 +9,7 @@ namespace CSharp
 		{
 			try
 			{
-				ObjEleStatics.ToPayOrder(ObjEleStatics.Communication);
+				ObjEleStatics.PayOrder(ObjEleStatics.Communication);
 			}
 			catch (ArgumentException ex)
 			{
