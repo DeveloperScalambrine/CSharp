@@ -75,6 +75,7 @@ namespace CSharp
 }
 /*
 Código para executar no main
+ ObjEleStatics.PayOrder(ObjEleStatics.Communication);
  ObjEleStatics objEleStatics = new ObjEleStatics(16,10,7);
             if (objEleStatics.firstChildren == string.Empty)
             {
