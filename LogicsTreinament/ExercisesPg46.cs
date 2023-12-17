@@ -115,7 +115,6 @@ namespace CSharp
     para homens(72.7 * h) - 58
     para mulheres(62.1 * h) - 44.7
     */
-
     public static string IdealWeight()
     {
       double height, weight;
@@ -137,4 +136,16 @@ namespace CSharp
     }
 
   }
+
+   // code to execute in the main
+
+  /* 
+      ExercisesPg46.IsNotEqual();
+      ExercisesPg46.OrderDesc();
+      */
+
+  // ExercisesPg46.CalcularRaizes();
+
+  // Console.WriteLine(ExercisesPg46.IdealWeight());									
+
 }
