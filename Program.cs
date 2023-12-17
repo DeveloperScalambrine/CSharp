@@ -9,7 +9,13 @@ namespace CSharp
 		{
 			try
 			{
-				ObjEleStatics.PayOrder(ObjEleStatics.Communication);
+					Livro l = new Livro
+				{
+					NumPage = 200,
+					Title = "Review",
+					Price = 100.00,
+				};
+				Console.WriteLine(l);
 			}
 			catch (ArgumentException ex)
 			{
