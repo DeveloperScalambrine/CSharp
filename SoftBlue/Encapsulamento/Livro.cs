@@ -14,7 +14,17 @@ namespace CSharp
 
         public override string ToString()
         {
-            return $"My book cost {Price} The title is {Title} I am in the page {NumPage} about total of the {MaxPages} max pages";
+            return $"My book cost {Price}US$ The title is {Title}, I am in the page {NumPage} about total of the {MaxPages} max pages";
         }
     }
 }
+
+/* code to execute na main
+Livro l = new Livro
+{
+  NumPage = 200,
+  Title = "Review",
+  Price = 100.00,
+};
+Console.WriteLine(l);
+*/
